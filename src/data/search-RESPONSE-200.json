@@ -1,0 +1,999 @@
+{
+    "searches": [
+        {
+            "type": "structured",
+            "sources": [
+                "sayari",
+                "tr-clear"
+            ],
+            "criteria": {
+                "business_name": "Praescient Analytics",
+                "country": "USA"
+            },
+            "search_status_code": 200,
+            "search_status_description": "OK",
+            "search_status": {
+                "tr-clear": {
+                    "status": 200,
+                    "message": "OK",
+                    "entities": 10,
+                    "links": 9
+                },
+                "sayari": {
+                    "status": 200,
+                    "message": "OK",
+                    "entities": 21,
+                    "links": 0
+                }
+            },
+            "search_results": {
+                "entities": [
+                    {
+                        "id": "a5991edc00c84bb1cd7870918e86b42e",
+                        "typeId": "ET1",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "ADD2": "8280 WILLOW OAKS CORPORATE DR STE 610",
+                            "ADD6": "FAIRFAX",
+                            "ADD17": "VA",
+                            "ADD9": "United States",
+                            "ADD8": "22031-4516",
+                            "PT435": 38.86306,
+                            "PT436": -77.229173,
+                            "PT633": "TR CLEAR"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR Business Search",
+                                "type": "Person Search Request V3",
+                                "image": "/downloads/images/house.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "679b80d89a321bc07d4b7065ac90f931",
+                        "typeId": "ET8",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "COM2": "Phone Other",
+                            "PT67": "(202) 680-9482",
+                            "PT639": "TR CLEAR"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR S2S API",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/Cellfone.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "0ae2b6a96b57006976dcecda86f17f35",
+                        "typeId": "ET1",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "ADD2": "635 Slaters Ln Ste 200",
+                            "ADD6": "ALEXANDRIA",
+                            "ADD17": "VA",
+                            "ADD9": "United States",
+                            "ADD8": "22314-1109",
+                            "PT435": 38.821814,
+                            "PT436": -77.042671,
+                            "PT633": "TR CLEAR"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR Business Search",
+                                "type": "Person Search Request V3",
+                                "image": "/downloads/images/house.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "13543cd7e68bded54ab82e423a1391ae",
+                        "typeId": "ET8",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "COM2": "Phone Other",
+                            "PT67": "(703) 739-2110",
+                            "PT639": "TR CLEAR"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR S2S API",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/Cellfone.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "c5be4f810a3b1d9379125027409e44e4",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "ORG2": "PRAESCIENT ANALYTICS LLC",
+                            "PT707": "20-4949926",
+                            "PT708": "VA",
+                            "PT650": "TR CLEAR",
+                            "PT912": "968831425"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR S2S API",
+                                "type": "Person Search Request V3",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/Organ.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "cb282c6e09a7e462d9ab1a3b90061cdb",
+                        "typeId": "ET5",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT652": "TR CLEAR",
+                            "PT78": "CATHERINE CROTTY",
+                            "PT6": "CHAIRMAN OF THE BOARD",
+                            "PT27": "CROTTY",
+                            "PT7": "CATHERINE"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR S2S API",
+                                "type": "Person Search Request V3",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/person.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "53a41083f0f9f306c6191fbe9d30bb4b",
+                        "typeId": "ET5",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT652": "TR CLEAR",
+                            "PT78": "MARK FELDMAN",
+                            "PT6": "ANALYST",
+                            "PT27": "FELDMAN",
+                            "PT7": "MARK"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR S2S API",
+                                "type": "Person Search Request V3",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/person.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "fc1d210370be0d90de7da9efbf1a804e",
+                        "typeId": "ET5",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT652": "TR CLEAR",
+                            "PT78": "DANIEL YONKER",
+                            "PT6": "ANALYST",
+                            "PT27": "YONKER",
+                            "PT7": "DANIEL"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR S2S API",
+                                "type": "Person Search Request V3",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/person.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "dc95b8cea9e7c14c38963377a952cfbf",
+                        "typeId": "ET5",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT652": "TR CLEAR",
+                            "PT78": "CATHERINE CROTTY",
+                            "PT6": "BOARD OF DIRECTORS",
+                            "PT27": "CROTTY",
+                            "PT7": "CATHERINE"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR S2S API",
+                                "type": "Person Search Request V3",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/person.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "afb4f6932dcf0a601e0f514c162f6115",
+                        "typeId": "ET5",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT652": "TR CLEAR",
+                            "PT78": "JEREMIAH FREMIN",
+                            "PT6": "CHIEF EXECUTIVE OFFICER",
+                            "PT27": "FREMIN",
+                            "PT7": "JEREMIAH"
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "TR CLEAR S2S API",
+                                "type": "Person Search Request V3",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/person.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "bIhDoaCAM_c4mjj0f-7BLw",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/bIhDoaCAM_c4mjj0f-7BLw",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 13,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "jmu1RnV-BOmlzMigzBSckA",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/jmu1RnV-BOmlzMigzBSckA",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 4,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "lUG9Ll4Jzb_RB4o2Uotmsw",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/lUG9Ll4Jzb_RB4o2Uotmsw",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 4,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "tXue8Vn3yZ0Vd2qZ3Qq7Gg",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "Praescient Analytics LLC",
+                            "PT733": "/v1/entity/tXue8Vn3yZ0Vd2qZ3Qq7Gg",
+                            "PT734": false,
+                            "PT740": "پریسینت انالیتیکس ال ال سی",
+                            "PT178": "AFG",
+                            "PT712": 4,
+                            "PT874": 0
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "XeylblCIGJsUmMSfm4wjVg",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/XeylblCIGJsUmMSfm4wjVg",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 3,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "GLa7Jr9m0MysS80FBzH07g",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/GLa7Jr9m0MysS80FBzH07g",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 3,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "SFMhZ2Tuz70rBk0MCmtNmw",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/SFMhZ2Tuz70rBk0MCmtNmw",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 3,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "wmGhPgvMmxUcYOILMppVxw",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/wmGhPgvMmxUcYOILMppVxw",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 3,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "T6aC3dBCkte3mO-w0z4L4g",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS LLC",
+                            "PT733": "/v1/entity/T6aC3dBCkte3mO-w0z4L4g",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 2,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "yM5XxQokvgz5Slqtvo5gfg",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/yM5XxQokvgz5Slqtvo5gfg",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 2,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "UowNvfmrFzksfrizeJ2Heg",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "Praescient Analytics, LLC",
+                            "PT733": "/v1/entity/UowNvfmrFzksfrizeJ2Heg",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 1,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "nK4RZiU0yO9zoMLuQJCaRg",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "Praescient Analytics, LLC",
+                            "PT733": "/v1/entity/nK4RZiU0yO9zoMLuQJCaRg",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 1,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "NnRkxVLGuib0szvcyZre_w",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/NnRkxVLGuib0szvcyZre_w",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 1,
+                            "PT874": 0
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "EgcX7O1RMO0RPiZ0NRUJOg",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/EgcX7O1RMO0RPiZ0NRUJOg",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 1,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "6G7v0M9DzPgbwRL8Mqq-vQ",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/6G7v0M9DzPgbwRL8Mqq-vQ",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 1,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "x1dy2GCqz_zgA91iFi3n9A",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/x1dy2GCqz_zgA91iFi3n9A",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 1,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "Qzw1Twip0IA_0I3GBB8eEA",
+                        "typeId": "ET5",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT652": "Sayari",
+                            "PT78": "پریسینت انالیتیکس ال ال سی",
+                            "PT736": "/v1/entity/Qzw1Twip0IA_0I3GBB8eEA",
+                            "PT711": false,
+                            "PT124": "AFG",
+                            "PT875": 0
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source",
+                                "image": "/downloads/images/person.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": "FShItK_vIIiwMDtkn7hvxw",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/FShItK_vIIiwMDtkn7hvxw",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 0,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "l0NJgAJWw_y0IJAUeHQJhA",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC, Colorado Authority Relinquished November 19, 2020",
+                            "PT733": "/v1/entity/l0NJgAJWw_y0IJAUeHQJhA",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 0,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "Fz8Xt2Wgp921-NHKQHk8yg",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/Fz8Xt2Wgp921-NHKQHk8yg",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 0,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    },
+                    {
+                        "id": "m0qnWWSCmg2AI9IoKSUTUQ",
+                        "typeId": "ET4",
+                        "typeLocation": "CONNECTOR",
+                        "properties": {
+                            "PT650": "Sayari",
+                            "ORG2": "PRAESCIENT ANALYTICS, LLC",
+                            "PT733": "/v1/entity/m0qnWWSCmg2AI9IoKSUTUQ",
+                            "PT734": false,
+                            "PT178": "USA",
+                            "PT712": 0,
+                            "PT874": 17
+                        },
+                        "sourceReference": {
+                            "source": {
+                                "name": "Sayari Search API",
+                                "description": "An example source reference from a connected data source"
+                            }
+                        }
+                    }
+                ],
+                "links": [
+                    {
+                        "id": "d9ef1395daa392cde9ab7786570d55db",
+                        "typeId": "LT7",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "a5991edc00c84bb1cd7870918e86b42e",
+                        "linkDirection": "NONE"
+                    },
+                    {
+                        "id": "239dae7133af424f84d9975300c1b645",
+                        "typeId": "LT10",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "679b80d89a321bc07d4b7065ac90f931",
+                        "linkDirection": "NONE"
+                    },
+                    {
+                        "id": "348a6edf22624865c7c348a06a96f6f1",
+                        "typeId": "LT7",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "0ae2b6a96b57006976dcecda86f17f35",
+                        "linkDirection": "NONE"
+                    },
+                    {
+                        "id": "0dbd6c76a0bc4d719c54f0c4e3ddd538",
+                        "typeId": "LT10",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "13543cd7e68bded54ab82e423a1391ae",
+                        "linkDirection": "NONE"
+                    },
+                    {
+                        "id": "08d0fc2cbf1fafa383fe3bdbc52165c8",
+                        "typeId": "LT4",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "cb282c6e09a7e462d9ab1a3b90061cdb",
+                        "linkDirection": "NONE",
+                        "properties": {
+                            "PT164": "CHAIRMAN OF THE BOARD"
+                        }
+                    },
+                    {
+                        "id": "f336003c9b7e3d4c5cd9d330ee562eef",
+                        "typeId": "LT4",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "53a41083f0f9f306c6191fbe9d30bb4b",
+                        "linkDirection": "NONE",
+                        "properties": {
+                            "PT164": "ANALYST"
+                        }
+                    },
+                    {
+                        "id": "5477df53af815416397ea84405febaa1",
+                        "typeId": "LT4",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "fc1d210370be0d90de7da9efbf1a804e",
+                        "linkDirection": "NONE",
+                        "properties": {
+                            "PT164": "ANALYST"
+                        }
+                    },
+                    {
+                        "id": "b85dc35a25428eb63eab6a014bc4a16c",
+                        "typeId": "LT4",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "dc95b8cea9e7c14c38963377a952cfbf",
+                        "linkDirection": "NONE",
+                        "properties": {
+                            "PT164": "BOARD OF DIRECTORS"
+                        }
+                    },
+                    {
+                        "id": "b7ed764e5c7ec2f09e14a3b309816dc1",
+                        "typeId": "LT4",
+                        "typeLocation": "CONNECTOR",
+                        "fromEndId": "c5be4f810a3b1d9379125027409e44e4",
+                        "toEndId": "afb4f6932dcf0a601e0f514c162f6115",
+                        "linkDirection": "NONE",
+                        "properties": {
+                            "PT164": "CHIEF EXECUTIVE OFFICER"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "unstructured",
+            "criteria": {
+                "keywords": "Praescient Analytics",
+                "nlp_summary": true
+            },
+            "search_status_code": 200,
+            "search_status_description": "OK",
+            "search_status": {
+                "textslingr": {
+                    "status": 200,
+                    "message": "OK",
+                    "results": 3
+                }
+            },
+            "search_results": [
+                {
+                    "_id": "635c2a16fa12fafb46ef449b",
+                    "text": "'Praescient Analytics now able to provide customers with access to Siren’s investigative platform\nSiren, the investigative intelligence platform, announced a strategic partnership with Praescient Analytics, a provider of intelligence analysis to the US Federal Government. Through the agreement, Praescient is now able to provide new and existing customers with access to Siren’s investigative platform.\n\nDeveloped as a spinout from big data and knowledge representation research, Siren provides a unique combination of search, business intelligence, big data, link analysis and knowledge representation which advances the way organizations address data driven problems.\n\nKatie Crotty, CEO of Praescient Analytics, said: “Siren is an evolution in regard to the next phase of traditional intelligence platforms. It provides organizations with the tools to understand and leverage how critical data is interconnected in real-time, merging functionalities that were previously disconnected.”\n\nThe Siren platform will be integrated into Praescient’s Advanced Analytics Solution (A2S). A2S is an adaptable intelligence solution purposefully designed with the intelligence analyst in mind, leveraging an open, extensible architecture built with IBM i2 Enterprise Insight Analysis at its center. It provides multi-dimensional visual analysis and advanced analytics to create mission critical insight and data in real-time.\n\nA2S’s key capabilities include supporting operations in connected & disconnected environments; automated text analytics; geo-spatial analysis; automatic report generation; ad-hoc data imports; analyst collaboration; advanced tooling for external data access; data replication and sub-setting.\n\nA2S has been developed as a result of more than two decades of experience with more than 1,200 military organizations in 130 countries. Its customers include all the members of the US Intelligence Community, all branches of the US Department of Defense, and all major US federal agencies.\n\nSiren is primarily aimed at investigative functions within organizations (cyber threat intelligence, financial crime, law enforcement) where citizen data scientists have the real need for advanced “correlation” analysis on multiple datasets at the same time.\n\nJohn Randles, CEO of Siren, said: “The partnership with Praescient opens up an array of opportunities for us in the US Federal space. Praescient provides us with a larger geographical presence and invaluable domain expertise. They are charismatic technologists who speak the language of our clients.”\n\nCrotty concluded: “We are excited to partner with such an innovative, groundbreaking platform within the data analytics space. Siren will be a vital solution to many of our clients’ intelligence and investigative requirements. Not only does it resolve their immediate needs, but it catapults them into anticipating and solving future challenges.”'",
+                    "source": "https://www.helpnetsecurity.com/2020/04/17/siren-praescient-analytics/",
+                    "date": "2020-04-17T04:00:00.000Z",
+                    "type": "article",
+                    "entities": [
+                        {
+                            "type": "ORG",
+                            "value": "Siren"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Siren"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Praescient Analytics"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "the US Federal Government"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Praescient"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Siren"
+                        },
+                        {
+                            "type": "PERSON",
+                            "value": "Siren"
+                        },
+                        {
+                            "type": "PERSON",
+                            "value": "Katie Crotty"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Praescient Analytics"
+                        },
+                        {
+                            "type": "PERSON",
+                            "value": "Siren"
+                        },
+                        {
+                            "type": "PERSON",
+                            "value": "Siren"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Praescient’s Advanced Analytics Solution"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "A2S"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "IBM i2 Enterprise Insight Analysis"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "A2S"
+                        },
+                        {
+                            "type": "DATE",
+                            "value": "more than two decades"
+                        },
+                        {
+                            "type": "CARDINAL",
+                            "value": "more than 1,200"
+                        },
+                        {
+                            "type": "CARDINAL",
+                            "value": "130"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "the US Intelligence Community"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "the US Department of Defense"
+                        },
+                        {
+                            "type": "GPE",
+                            "value": "US"
+                        },
+                        {
+                            "type": "PERSON",
+                            "value": "Siren"
+                        },
+                        {
+                            "type": "PERSON",
+                            "value": "John Randles"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Siren"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Praescient"
+                        },
+                        {
+                            "type": "GPE",
+                            "value": "US"
+                        },
+                        {
+                            "type": "PERSON",
+                            "value": "Siren"
+                        }
+                    ]
+                },
+                {
+                    "_id": "635c2a22fa12fafb46ef449d",
+                    "text": "'Praescient Analytics, LLC (Praescient) is a Veteran-led, Woman Owned Small Business (WOSB) that specializes in providing technical support, training, data visualization, and advanced data analysis services to the law enforcement, defense, and intelligence communities. We have provided crime and intelligence analytic platform implementation, integration, maintenance, training, and embedded analysis services to government and commercial clients since our founding in 2011. As subject matter experts in the areas of relational graphing, geospatial, link, statistical, temporal, and predictive analysis, Praescient has extensive experience designing, developing, and integrating solutions for customers with challenging and complex missions.'",
+                    "source": "https://www.esri.com/partners/praescient-analytics-a2Tf2000005TD8zEAG",
+                    "date": "2011-01-01T05:00:00.000Z",
+                    "type": "article",
+                    "entities": [
+                        {
+                            "type": "ORG",
+                            "value": "Praescient"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Woman Owned Small Business"
+                        },
+                        {
+                            "type": "DATE",
+                            "value": "2011"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Praescient"
+                        }
+                    ]
+                },
+                {
+                    "_id": "635c2a0bfa12fafb46ef4499",
+                    "text": "In this episode of “Givers of GovCon,” we chat with Jeremy Fremin, CEO of Praescient Analytics, who is involved with clean up, repair and recovery activities in Southwest Florida following Hurricane Ian. Ian made landfall Sept. 28 with 150 mph sustained winds as a strong Category 4 hurricane, and caused major flooding, damage, destruction and unfortunately, even loss of life. Fremin sits on the community board for a barrier island in SW Florida, where he is closely and personally connected. He shares with us first-hand accounts of the damages in the area, the challenges barrier islands faced right after the hurricane and stories of the local community coming together in the wake of destruction. Fremin also talks about how he helped from afar when he couldn’t yet access North Captiva Island, and how others around the country can do the same. Below are links to various organizations and donation sites to help recovery and relief efforts in Southwest Florida:",
+                    "source": "https://washingtonexec.com/2022/10/givers-of-govcon-podcast-praescient-analytics-jeremy-fremin-on-hurricane-ian-relief-and-recovery-efforts/",
+                    "date": "2022-10-25T04:00:00.000Z",
+                    "type": "article",
+                    "entities": [
+                        {
+                            "type": "WORK_OF_ART",
+                            "value": "Givers of GovCon"
+                        },
+                        {
+                            "type": "PERSON",
+                            "value": "Jeremy Fremin"
+                        },
+                        {
+                            "type": "ORG",
+                            "value": "Praescient Analytics"
+                        },
+                        {
+                            "type": "GPE",
+                            "value": "Southwest Florida"
+                        },
+                        {
+                            "type": "EVENT",
+                            "value": "Hurricane Ian"
+                        },
+                        {
+                            "type": "DATE",
+                            "value": "Sept. 28"
+                        },
+                        {
+                            "type": "QUANTITY",
+                            "value": "150 mph"
+                        },
+                        {
+                            "type": "PRODUCT",
+                            "value": "Category 4"
+                        },
+                        {
+                            "type": "GPE",
+                            "value": "Florida"
+                        },
+                        {
+                            "type": "ORDINAL",
+                            "value": "first"
+                        },
+                        {
+                            "type": "LOC",
+                            "value": "North Captiva Island"
+                        },
+                        {
+                            "type": "GPE",
+                            "value": "Southwest Florida"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "unstructured",
+            "criteria": {
+                "keywords": "Praescient Analytics",
+                "nlp_summary": false
+            },
+            "search_status_code": 200,
+            "search_status_description": "OK",
+            "search_status": {
+                "textslingr": {
+                    "status": 200,
+                    "message": "OK",
+                    "results": 3
+                }
+            },
+            "search_results": [
+                {
+                    "_id": "635c2a16fa12fafb46ef449b",
+                    "text": "'Praescient Analytics now able to provide customers with access to Siren’s investigative platform\nSiren, the investigative intelligence platform, announced a strategic partnership with Praescient Analytics, a provider of intelligence analysis to the US Federal Government. Through the agreement, Praescient is now able to provide new and existing customers with access to Siren’s investigative platform.\n\nDeveloped as a spinout from big data and knowledge representation research, Siren provides a unique combination of search, business intelligence, big data, link analysis and knowledge representation which advances the way organizations address data driven problems.\n\nKatie Crotty, CEO of Praescient Analytics, said: “Siren is an evolution in regard to the next phase of traditional intelligence platforms. It provides organizations with the tools to understand and leverage how critical data is interconnected in real-time, merging functionalities that were previously disconnected.”\n\nThe Siren platform will be integrated into Praescient’s Advanced Analytics Solution (A2S). A2S is an adaptable intelligence solution purposefully designed with the intelligence analyst in mind, leveraging an open, extensible architecture built with IBM i2 Enterprise Insight Analysis at its center. It provides multi-dimensional visual analysis and advanced analytics to create mission critical insight and data in real-time.\n\nA2S’s key capabilities include supporting operations in connected & disconnected environments; automated text analytics; geo-spatial analysis; automatic report generation; ad-hoc data imports; analyst collaboration; advanced tooling for external data access; data replication and sub-setting.\n\nA2S has been developed as a result of more than two decades of experience with more than 1,200 military organizations in 130 countries. Its customers include all the members of the US Intelligence Community, all branches of the US Department of Defense, and all major US federal agencies.\n\nSiren is primarily aimed at investigative functions within organizations (cyber threat intelligence, financial crime, law enforcement) where citizen data scientists have the real need for advanced “correlation” analysis on multiple datasets at the same time.\n\nJohn Randles, CEO of Siren, said: “The partnership with Praescient opens up an array of opportunities for us in the US Federal space. Praescient provides us with a larger geographical presence and invaluable domain expertise. They are charismatic technologists who speak the language of our clients.”\n\nCrotty concluded: “We are excited to partner with such an innovative, groundbreaking platform within the data analytics space. Siren will be a vital solution to many of our clients’ intelligence and investigative requirements. Not only does it resolve their immediate needs, but it catapults them into anticipating and solving future challenges.”'",
+                    "source": "https://www.helpnetsecurity.com/2020/04/17/siren-praescient-analytics/",
+                    "date": "2020-04-17T04:00:00.000Z",
+                    "type": "article"
+                },
+                {
+                    "_id": "635c2a22fa12fafb46ef449d",
+                    "text": "'Praescient Analytics, LLC (Praescient) is a Veteran-led, Woman Owned Small Business (WOSB) that specializes in providing technical support, training, data visualization, and advanced data analysis services to the law enforcement, defense, and intelligence communities. We have provided crime and intelligence analytic platform implementation, integration, maintenance, training, and embedded analysis services to government and commercial clients since our founding in 2011. As subject matter experts in the areas of relational graphing, geospatial, link, statistical, temporal, and predictive analysis, Praescient has extensive experience designing, developing, and integrating solutions for customers with challenging and complex missions.'",
+                    "source": "https://www.esri.com/partners/praescient-analytics-a2Tf2000005TD8zEAG",
+                    "date": "2011-01-01T05:00:00.000Z",
+                    "type": "article"
+                },
+                {
+                    "_id": "635c2a0bfa12fafb46ef4499",
+                    "text": "In this episode of “Givers of GovCon,” we chat with Jeremy Fremin, CEO of Praescient Analytics, who is involved with clean up, repair and recovery activities in Southwest Florida following Hurricane Ian. Ian made landfall Sept. 28 with 150 mph sustained winds as a strong Category 4 hurricane, and caused major flooding, damage, destruction and unfortunately, even loss of life. Fremin sits on the community board for a barrier island in SW Florida, where he is closely and personally connected. He shares with us first-hand accounts of the damages in the area, the challenges barrier islands faced right after the hurricane and stories of the local community coming together in the wake of destruction. Fremin also talks about how he helped from afar when he couldn’t yet access North Captiva Island, and how others around the country can do the same. Below are links to various organizations and donation sites to help recovery and relief efforts in Southwest Florida:",
+                    "source": "https://washingtonexec.com/2022/10/givers-of-govcon-podcast-praescient-analytics-jeremy-fremin-on-hurricane-ian-relief-and-recovery-efforts/",
+                    "date": "2022-10-25T04:00:00.000Z",
+                    "type": "article"
+                }
+            ]
+        }
+    ]
+}
